@@ -1,0 +1,33 @@
+.left-side{
+  height: 100vh;
+  width: 40vw;
+  background: #ffbb00;
+  position: fixed;
+  color: #FFF;
+}
+
+.right-side{
+  width: 60vw;
+  float: right;
+  text-align: center;
+  background: #EEE;
+}
+
+.banner{
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 500px;
+  box-shadow: 3px 5px 8px -2px rgba(153,153,153,1);
+  border-radius: 10px;
+  background: #FFF;
+}
+
+.img-div{
+  margin-top: 100px;
+}
+
+.footer{
+  margin-top: 50px;
+  background: #333;
+  height: 200px;
+}

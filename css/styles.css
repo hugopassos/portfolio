@@ -1,43 +1,78 @@
 .left-side{
-  height: 100vh;
-  width: 40vw;
-  background: #FFF;
-  position: fixed;
+  background: #FFFFFF;
+  height: auto;
 }
 
-.right-side{
-  width: 60vw;
-  float: right;
+.left-content{
+  margin-top: 220px;
+  width: 39vw;
+  color: #555;
   text-align: center;
-  background-image: url('../img/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+}
+
+.icons{
+  font-size: 22px;
+}
+
+.icons a{
+  color: #555;
+}
+
+.icons a:hover{
+  color: #555;
+}
+
+.bg{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.bg-yellow{
+  background: #f2bb30;
+}
+
+.bg-blue{
+  background: #1476de;
+}
+
+.bg-light-green{
+  background: #a4dbc6;
+}
+
+.bg-orange{
+  background: #ffa845;
 }
 
 .banner{
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-bottom: 15px;
-  box-shadow: 3px 5px 8px -2px rgba(153,153,153,1);
+  padding-bottom: 70px;
+  box-shadow: 3px 5px 8px -2px rgba(100,100,100,1);
   border-radius: 10px;
   display: block;
   transition: transform .2s;
-  background: rgba(255, 255, 255, 0.6);
-}
-
-.banner:hover{
-  transform: scale(1.03);
+  background: #FFF;
+  position: relative;
 }
 
 .img-div{
   margin-top: 30px;
 }
 
+.pos-abs{
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  right: 15px;
+}
+
 .links-bg{
+  opacity: 1;
   border-top: 1px solid;
   border-color: #999;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.filter-white{
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(193deg) brightness(105%) contrast(105%);
 }
 
 .icon-title{
@@ -45,25 +80,23 @@
   height: 20px;
   font-size: 12px;
   font-weight: bold;
-  color: #222;
+  color: #FFF;
 }
 
 .icon-link{
   color: inherit;
-  font-size: 35px;
-  color: #222;
+  font-size: 25px;
+  color: #FFF;
 }
 
 .icon-link:hover{
   color: inherit;
-  color: #222;
+  color: #DDD;
 }
 
 .footer{
-  margin-top: 50px;
   padding-top: 50px;
   background: #111;
-  height: 150px;
   color: #FFF;
 }
 
@@ -78,12 +111,12 @@
 
 @media (max-width: 992px){
   .left-side{
-    position: static;
-    width: 100vw;
-    height: 400px;
+    height: 500px;
   }
 
-  .right-side{
+  .left-content{
+    padding-right: 18px;
+    margin-top: 200px;
     width: 100vw;
   }
 }
